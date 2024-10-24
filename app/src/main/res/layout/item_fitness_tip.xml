@@ -1,46 +1,60 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:padding="20dp" >
+    android:layout_margin="8dp"
+    android:elevation="4dp">
 
-    <TextView
-        android:id="@+id/tipDay"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        android:text="Day 1"
-        android:textSize="16sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/tipTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:paddingTop="8dp"
-        android:text="Drink Water Every Morning"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:ignore="HardCodedText,VisualLintBounds,VisualLintOverLap" />
-
-    <ImageView
-        android:id="@+id/tipImage"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
-        android:padding="10dp"
-        android:src="@drawable/water"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:id="@+id/tipDescription"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="4dp"
-        android:text="Start your day with hydration!"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        tools:ignore="HardcodedText"/>
-</LinearLayout>
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        tools:ignore="ExtraText">
+
+
+        <TextView
+            android:id="@+id/tipDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:text="@string/day_1"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/tipTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="Drink Water Every Morning"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            tools:ignore="HardCodedText,UnusedAttribute,VisualLintBounds,VisualLintOverLap" />
+
+        <ImageView
+            android:id="@+id/tipImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/water"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:id="@+id/tipDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="Start your day with hydration!"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:justificationMode="inter_word"
+            tools:ignore="HardcodedText,UnusedAttribute"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

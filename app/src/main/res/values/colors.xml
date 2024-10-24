@@ -5,4 +5,32 @@
 
     <color name="day1">#AEEEEE</color>
     <color name="day2">#FF7F50</color>
+    <color name="day3">#FFFACD</color>
+    <color name="day4">#90EE90</color>
+    <color name="day5">#FFDAB9</color>
+    <color name="day6">#E6E6FA</color>
+    <color name="day7">#87CEEB</color>
+    <color name="day8">#FFA07A</color>
+    <color name="day9">#98FF98</color>
+    <color name="day10">#FFB6C1</color>
+    <color name="day11">#DAA520</color>
+    <color name="day12">#DDA0DD</color>
+    <color name="day13">#40E0D0</color>
+    <color name="day14">#FA8072</color>
+    <color name="day15">#BDB76B</color>
+    <color name="day16">#D3D3D3</color>
+    <color name="day17">#007BA7</color>
+    <color name="day18">#FF0000</color>
+    <color name="day19">#FAFAD2</color>
+    <color name="day20">#B0E0E6</color>
+    <color name="day21">#00FFFF</color>
+    <color name="day22">#FFDAB9</color>
+    <color name="day23">#00FF7F</color>
+    <color name="day24">#7B68EE</color>
+    <color name="day25">#FF69B4</color>
+    <color name="day26">#FFA07A</color>
+    <color name="day27">#7FFF00</color>
+    <color name="day28">#F08080</color>
+    <color name="day29">#BDB76B</color>
+    <color name="day30">#191970</color>
 </resources>
